@@ -66,15 +66,15 @@
 ## <div align="center">🏆 <b>GitHub Achievements</b> 🏆</div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=locfaker&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=locfaker&theme=tokyonight&no-frame=false&no-bg=false&margin-w=4&row=1&column=6" alt="GitHub Trophies" />
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Trophy.png" alt="Trophy" width="25" height="25" />
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Trophy.png" alt="Trophy" width="25" height="25" />
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Trophy.png" alt="Trophy" width="25" height="25" />
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Trophy.png" alt="Trophy" width="25" height="25" />
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Trophy.png" alt="Trophy" width="25" height="25" />
+  <img src="https://media.giphy.com/media/3o7qDVHln5s9aZqs2k/giphy.gif" width="30" height="30" />
+  <img src="https://media.giphy.com/media/3o7qDVHln5s9aZqs2k/giphy.gif" width="30" height="30" />
+  <img src="https://media.giphy.com/media/3o7qDVHln5s9aZqs2k/giphy.gif" width="30" height="30" />
+  <img src="https://media.giphy.com/media/3o7qDVHln5s9aZqs2k/giphy.gif" width="30" height="30" />
+  <img src="https://media.giphy.com/media/3o7qDVHln5s9aZqs2k/giphy.gif" width="30" height="30" />
 </div>
 
 
@@ -102,13 +102,7 @@
   </a>
 </div>
 
-## <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="35"> GitHub Trophies
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=locfaker&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" alt="GitHub Trophies" />
-</div>
-
-<br/>
 
 
 
