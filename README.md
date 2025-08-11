@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=280&section=header&text=Võ%20Đại%20Lộc&fontSize=80&fontAlignY=35&desc=Software%20Engineer%20%7C%20Web%20Developer%20%7C%20Tech%20Enthusiast&descAlignY=55&descAlign=50&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=280&section=header&text=Võ%20Đại%20Lộc&fontSize=80&fontAlignY=35&desc=Software%20Engineer%20%7C%20AI%20Engineer%20%7C%20Tech%20Enthusiast&descAlignY=55&descAlign=50&animation=fadeIn" />
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2500&pause=800&color=00D9FF&center=true&vCenter=true&multiline=true&width=700&height=80&lines=👨‍💻+Software+Engineer;🌐+Web+Developer;💡+Problem+Solver;🌟+Tech+Enthusiast;☕+Code+with+Passion!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2500&pause=800&color=00D9FF&center=true&vCenter=true&multiline=true&width=700&height=80&lines=👨‍💻+Software+Engineer;🤖+AI+Engineer;💡+Problem+Solver;🌟+Tech+Enthusiast;☕+Code+with+Passion!" alt="Typing SVG" />
 </div>
 
 <div align="center">
@@ -34,10 +34,25 @@
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 </div>
 
+<div align="center">
+  <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
+  <img align="left" alt="Developer" width="400" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif">
+</div>
+
+<br clear="both"/>
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+</div>
+
 ## <div align="center"><img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="50"> <b>Tech Stack & Tools</b></div>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vue,nodejs,python,mysql,postgresql,mongodb,redis,aws,docker,git,vscode&theme=dark" alt="Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=html,css,java,python,cs,cpp&theme=dark" alt="Tech Stack" />
+</div>
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&width=600&height=60&lines=HTML5+%7C+CSS3+%7C+Java+%7C+Python;C%23+%7C+C%2B%2B+%7C+Programming+Languages" alt="Tech Stack Typing" />
 </div>
 
 <div align="center">
