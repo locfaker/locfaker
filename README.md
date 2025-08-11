@@ -69,43 +69,7 @@
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 </div>
 
-## <div align="center"><img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"> <b>GitHub Statistics</b></div>
 
-<br/>
-
-<div align="center">
-  <img width="390" src="https://github-readme-stats.vercel.app/api?username=locfaker&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00d9ff&icon_color=00d9ff&text_color=c9d1d9&border_radius=10" alt="GitHub Stats"/>
-
-  <img width="390" src="https://github-readme-stats.vercel.app/api/top-langs/?username=locfaker&layout=compact&langs_count=10&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9&border_radius=10" alt="Top Languages"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=locfaker&theme=tokyo-night&hide_border=true&area=true&bg_color=0d1117&color=00d9ff&line=00d9ff&point=ff6b6b" alt="Activity Graph"/>
-</div>
-
-## <img src="https://media.giphy.com/media/LnQjPWaON8nhr21vNW/giphy.gif" width="60"> <b>Hoạt động gần đây</b>
-
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
-
-## <img src="https://media.giphy.com/media/LnQjPWaON8nhr21vNW/giphy.gif" width="60"> <b>Blog Posts & Articles</b>
-
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
-
-<br/>
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=locfaker&theme=tokyonight" alt="Profile Summary"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=locfaker&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9&border_radius=10" alt="WakaTime Stats"/>
-</div>
 
 ## <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50"> Dự án nổi bật
 
@@ -138,13 +102,7 @@
 
 <br/>
 
-## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="35"> Coding Activity
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=locfaker&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9&border_radius=10&layout=compact" />
-</div>
-
-<br/>
 
 ## <img src="https://media.giphy.com/media/Q7LHmoFwVP6Yc1swZs/giphy.gif" width="60"><b> Liên hệ với tôi</b>
 
@@ -173,7 +131,7 @@
 <br/>
 
 <div align="center">
-  <h3>📍 Hà Đông / Hà Nội, Vietnam</h3>
+  <h3>📍 Quy Nhơn, Gia Lai, Việt Nam</h3>
   <h3>🕐 19:45 - cùng thời gian</h3>
   <h3>🤖 Robot Alpha Asimov</h3>
 </div>
@@ -197,17 +155,18 @@
 
 <br/>
 
----
-
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=footer&text=Thanks%20for%20visiting!&fontSize=40&fontAlignY=65&desc=Have%20a%20great%20day!&descAlignY=80&descAlign=50" />
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 </div>
 
 <div align="center">
-  <h2>⭐️ Nếu bạn thích profile này, hãy cho tôi một star! ⭐️</h2>
-  <h3>🚀 Let's connect and build something amazing together! 🚀</h3>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&height=60&lines=Thanks+for+visiting+my+profile!+🙏;Let's+build+something+amazing+together!+🚀;Happy+coding!+💻✨" alt="Thanks Message" />
 </div>
 
 <div align="center">
-  <img src="https://media.giphy.com/media/jpVnC65DmYeyRL4LHS/giphy.gif" width="100" />
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+</div>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=fadeIn" />
 </div>
