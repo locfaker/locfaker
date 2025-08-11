@@ -1,5 +1,15 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=280&section=header&text=Võ%20Đại%20Lộc&fontSize=80&fontAlignY=35&desc=Software%20Engineer%20%7C%20AI%20Engineer%20%7C%20Tech%20Enthusiast&descAlignY=55&descAlign=50&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=gradient&customColorList=0,2,2,5,30&height=300&section=header&text=VÕ%20ĐẠI%20LỘC&fontSize=70&fontColor=ffffff&fontAlignY=40&desc=🤖%20AI%20Engineer%20%7C%20💻%20Software%20Developer%20%7C%20🚀%20Tech%20Innovator&descAlignY=65&descAlign=50&descSize=20&animation=blinking&stroke=ffffff&strokeWidth=2" />
+</div>
+
+<div align="center">
+  <h1>
+    <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=45&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&height=80&lines=VÕ+ĐẠI+LỘC;AI+ENGINEER;TECH+INNOVATOR;PROBLEM+SOLVER" alt="Name Typing" />
+  </h1>
+</div>
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=4000&pause=1500&color=FFD700&center=true&vCenter=true&width=800&height=50&lines=🌟+Passionate+about+Artificial+Intelligence+and+Machine+Learning;🔥+Building+the+future+with+code+and+creativity;💡+Turning+ideas+into+intelligent+solutions" alt="Subtitle" />
 </div>
 
 <div align="center">
@@ -39,9 +49,7 @@
 
 
 
-<div align="center">
-  <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="200" height="150" />
-</div>
+
 
 
 
