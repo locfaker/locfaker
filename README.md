@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=300&section=header&text=Võ%20Đại%20Lộc&fontSize=90&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20Software%20Engineer%20%7C%20Tech%20Enthusiast&descAlignY=51&descAlign=62" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=300&section=header&text=Võ%20Đại%20Lộc&fontSize=90&fontAlignY=38&desc=Software%20Engineer%20%7C%20Web%20Developer%20%7C%20Tech%20Enthusiast&descAlignY=51&descAlign=62" />
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&width=800&height=100&lines=👨‍💻+Full+Stack+Developer;🚀+Software+Engineer;💡+Problem+Solver;🌟+Tech+Enthusiast;☕+Code+with+Passion!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&width=800&height=100&lines=👨‍💻+Software+Engineer;🌐+Web+Developer;💡+Problem+Solver;🌟+Tech+Enthusiast;☕+Code+with+Passion!" alt="Typing SVG" />
 </div>
 
 <div align="center">
@@ -22,51 +22,15 @@
 
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
-```typescript
-interface Developer {
-  name: string;
-  username: string;
-  location: string;
-  role: string[];
-  languages: string[];
-  currentFocus: string;
-  hobbies: string[];
-  motto: string;
-}
-
-const vodailoc: Developer = {
-  name: "Võ Đại Lộc",
-  username: "locfaker",
-  location: "Vietnam 🇻🇳",
-  role: ["Full Stack Developer", "Software Engineer", "Tech Enthusiast"],
-  languages: ["Vietnamese", "English", "JavaScript", "TypeScript", "Python", "Java"],
-  currentFocus: "Building scalable web applications with modern technologies",
-  hobbies: ["Coding", "Learning new tech", "Problem solving", "Coffee brewing"],
-  motto: "Code with passion, debug with patience! 🚀"
-};
-
-console.log("Welcome to my GitHub profile! 👋");
-```
+- 🔭 Hiện tại tôi đang làm việc với **Web Development**
+- 🌱 Đang học **React, Node.js, Python**
+- 👯 Tìm kiếm cơ hội hợp tác trong **Open Source Projects**
+- 💬 Hỏi tôi về **JavaScript, React, Node.js, Python**
+- 📫 Liên hệ: **vodailoc@gmail.com**
+- ⚡ Sự thật thú vị: **Tôi debug bằng console.log() và tự hào về điều đó!**
+- 🎯 Mục tiêu 2024: **Đóng góp cho Open Source & Xây dựng các dự án tuyệt vời**
 
 <br/>
-
-<div align="center">
-  <img src="https://img.shields.io/badge/FULL%20STACK-DEVELOPER-4CAF50?style=for-the-badge&logo=code&logoColor=white" />
-  <img src="https://img.shields.io/badge/SOFTWARE-ENGINEER-2196F3?style=for-the-badge&logo=engineering&logoColor=white" />
-  <img src="https://img.shields.io/badge/TECH-ENTHUSIAST-FF5722?style=for-the-badge&logo=rocket&logoColor=white" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=locfaker&theme=tokyonight&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=FF6B6B&currStreakLabel=00D9FF" alt="GitHub Streak" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://spotify-github-profile.vercel.app/api/spotify-playing" alt="Spotify Playing" width="350" />
-</div>
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="50"> Tech Stack & Tools
 
@@ -98,46 +62,12 @@ console.log("Welcome to my GitHub profile! 👋");
         <br>Vue.js
       </td>
       <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=angular" width="48" height="48" alt="Angular" />
-        <br>Angular
-      </td>
-      <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=nextjs" width="48" height="48" alt="Next.js" />
-        <br>Next.js
-      </td>
-    </tr>
-    <tr>
-      <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Node.js" />
         <br>Node.js
       </td>
       <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=python" width="48" height="48" alt="Python" />
         <br>Python
-      </td>
-      <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=java" width="48" height="48" alt="Java" />
-        <br>Java
-      </td>
-      <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=php" width="48" height="48" alt="PHP" />
-        <br>PHP
-      </td>
-      <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=express" width="48" height="48" alt="Express" />
-        <br>Express
-      </td>
-      <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=django" width="48" height="48" alt="Django" />
-        <br>Django
-      </td>
-      <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=spring" width="48" height="48" alt="Spring" />
-        <br>Spring
-      </td>
-      <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=laravel" width="48" height="48" alt="Laravel" />
-        <br>Laravel
       </td>
     </tr>
     <tr>
@@ -162,26 +92,19 @@ console.log("Welcome to my GitHub profile! 👋");
         <br>AWS
       </td>
       <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=gcp" width="48" height="48" alt="GCP" />
-        <br>GCP
-      </td>
-      <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=docker" width="48" height="48" alt="Docker" />
         <br>Docker
       </td>
       <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=kubernetes" width="48" height="48" alt="Kubernetes" />
-        <br>Kubernetes
+        <img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" />
+        <br>Git
+      </td>
+      <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=vscode" width="48" height="48" alt="VS Code" />
+        <br>VS Code
       </td>
     </tr>
   </table>
-</div>
-
-<br/>
-
-### 🎨 Design & Tools
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=figma,photoshop,illustrator,xd,sketch" />
 </div>
 
 ## 🏆 GitHub Achievements
@@ -239,13 +162,13 @@ console.log("Welcome to my GitHub profile! 👋");
 <div align="center">
   <h3>🧠 Smart Quiz App - AI-Powered Learning Platform</h3>
   <p>Ứng dụng quiz thông minh được hỗ trợ bởi AI, giúp tối ưu hóa quá trình học tập</p>
-
+  
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
   <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
   <img src="https://img.shields.io/badge/AI-Powered-FF6B6B?style=for-the-badge&logo=brain&logoColor=white" />
-
+  
   <br/><br/>
-
+  
   <a href="https://github.com/locfaker/Smart-Quiz-App---AI-Powered-Learning-Platform-by-LocDev">
     <img src="https://img.shields.io/badge/View%20Project-00D9FF?style=for-the-badge&logo=github&logoColor=white" />
   </a>
@@ -254,7 +177,7 @@ console.log("Welcome to my GitHub profile! 👋");
 ## <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="35"> GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=locfaker&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" />
+  <img src="https://github-profile-trophy.vercel.app/?username=locfaker&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" alt="GitHub Trophies" />
 </div>
 
 <br/>
@@ -267,47 +190,9 @@ console.log("Welcome to my GitHub profile! 👋");
 
 <br/>
 
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="35"> Dự án nổi bật
+## <img src="https://media.giphy.com/media/Q7LHmoFwVP6Yc1swZs/giphy.gif" width="60"><b> Liên hệ với tôi</b>
 
-<div align="center">
-  <a href="https://github.com/locfaker/Smart-Quiz-App---AI-Powered-Learning-Platform-by-LocDev">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=locfaker&repo=Smart-Quiz-App---AI-Powered-Learning-Platform-by-LocDev&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9&icon_color=00d9ff" alt="Smart Quiz App" />
-  </a>
-</div>
-
-<div align="center">
-  <h3>🧠 Smart Quiz App - AI-Powered Learning Platform</h3>
-  <p>Ứng dụng quiz thông minh được hỗ trợ bởi AI, giúp tối ưu hóa quá trình học tập</p>
-
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/AI-Powered-FF6B6B?style=for-the-badge&logo=brain&logoColor=white" />
-
-  <br/><br/>
-
-  <a href="https://github.com/locfaker/Smart-Quiz-App---AI-Powered-Learning-Platform-by-LocDev">
-    <img src="https://img.shields.io/badge/View%20Project-00D9FF?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</div>
-
-<br/>
-
-## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="35"> Hoạt động gần đây
-
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
-
-<br/>
-
-## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="35"> Blog Posts & Articles
-
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
-
-<br/>
-
-## <img src="https://media.giphy.com/media/Q7LHmoFwVP6Yc1swZs/giphy.gif" width="35"> Liên hệ với tôi
-
+<br>
 <div align="center">
   <a href="mailto:vodailoc@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=D14836" />
@@ -331,8 +216,6 @@ console.log("Welcome to my GitHub profile! 👋");
 
 <br/>
 
-<br/>
-
 <div align="center">
   <h3>📍 Hà Đông / Hà Nội, Vietnam</h3>
   <h3>🕐 19:45 - cùng thời gian</h3>
@@ -348,15 +231,15 @@ console.log("Welcome to my GitHub profile! 👋");
 
 <br/>
 
-## <img src="https://media.giphy.com/media/fsEaZldNC8A1PJ3mwp/giphy.gif" width="35"> Quote của ngày
+## <img src="https://media.giphy.com/media/fsEaZldNC8A1PJ3mwp/giphy.gif" width="60"> <b>Quote của ngày</b>
+
+<br/>
 
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&border=true" />
 </div>
 
 <br/>
-
-
 
 ---
 
