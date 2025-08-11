@@ -1,15 +1,9 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=gradient&customColorList=0,2,2,5,30&height=300&section=header&text=VÕ%20ĐẠI%20LỘC&fontSize=70&fontColor=ffffff&fontAlignY=40&desc=🤖%20AI%20Engineer%20%7C%20💻%20Software%20Developer%20%7C%20🚀%20Tech%20Innovator&descAlignY=65&descAlign=50&descSize=20&animation=blinking&stroke=ffffff&strokeWidth=2" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:1e3c72,100:2a5298&height=200&section=header&text=Võ%20Đại%20Lộc&fontSize=50&fontColor=ffffff&fontAlignY=65&desc=AI%20Engineer%20%7C%20Software%20Developer&descAlignY=85&descAlign=50&descSize=16" />
 </div>
 
 <div align="center">
-  <h1>
-    <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=45&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&height=80&lines=VÕ+ĐẠI+LỘC;AI+ENGINEER;TECH+INNOVATOR;PROBLEM+SOLVER" alt="Name Typing" />
-  </h1>
-</div>
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=4000&pause=1500&color=FFD700&center=true&vCenter=true&width=800&height=50&lines=🌟+Passionate+about+Artificial+Intelligence+and+Machine+Learning;🔥+Building+the+future+with+code+and+creativity;💡+Turning+ideas+into+intelligent+solutions" alt="Subtitle" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&size=24&duration=3000&pause=1000&color=2563eb&center=true&vCenter=true&width=500&height=60&lines=Building+intelligent+solutions;Passionate+about+AI+%26+ML;Code+with+purpose" alt="Typing SVG" />
 </div>
 
 <div align="center">
