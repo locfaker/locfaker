@@ -206,6 +206,16 @@ console.log("Welcome to my GitHub profile! 👋");
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=locfaker&theme=tokyo-night&hide_border=true&area=true&bg_color=0d1117&color=00d9ff&line=00d9ff&point=ff6b6b" alt="Activity Graph"/>
 </div>
 
+## <img src="https://media.giphy.com/media/LnQjPWaON8nhr21vNW/giphy.gif" width="60"> <b>Hoạt động gần đây</b>
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+## <img src="https://media.giphy.com/media/LnQjPWaON8nhr21vNW/giphy.gif" width="60"> <b>Blog Posts & Articles</b>
+
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
 <br/>
 
 <div align="center">
@@ -216,6 +226,29 @@ console.log("Welcome to my GitHub profile! 👋");
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/wakatime?username=locfaker&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9&border_radius=10" alt="WakaTime Stats"/>
+</div>
+
+## <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50"> Dự án nổi bật
+
+<div align="center">
+  <a href="https://github.com/locfaker/Smart-Quiz-App---AI-Powered-Learning-Platform-by-LocDev">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=locfaker&repo=Smart-Quiz-App---AI-Powered-Learning-Platform-by-LocDev&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9&icon_color=00d9ff" alt="Smart Quiz App" />
+  </a>
+</div>
+
+<div align="center">
+  <h3>🧠 Smart Quiz App - AI-Powered Learning Platform</h3>
+  <p>Ứng dụng quiz thông minh được hỗ trợ bởi AI, giúp tối ưu hóa quá trình học tập</p>
+
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/AI-Powered-FF6B6B?style=for-the-badge&logo=brain&logoColor=white" />
+
+  <br/><br/>
+
+  <a href="https://github.com/locfaker/Smart-Quiz-App---AI-Powered-Learning-Platform-by-LocDev">
+    <img src="https://img.shields.io/badge/View%20Project-00D9FF?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
 </div>
 
 ## <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="35"> GitHub Trophies
@@ -237,44 +270,24 @@ console.log("Welcome to my GitHub profile! 👋");
 ## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="35"> Dự án nổi bật
 
 <div align="center">
-  <table>
-    <tr>
-      <td width="50%">
-        <h3 align="center">🚀 Project 1</h3>
-        <div align="center">
-          <a href="https://github.com/locfaker/awesome-project-1">
-            <img src="https://github-readme-stats.vercel.app/api/pin/?username=locfaker&repo=awesome-project-1&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9&icon_color=00d9ff" />
-          </a>
-        </div>
-      </td>
-      <td width="50%">
-        <h3 align="center">🌟 Project 2</h3>
-        <div align="center">
-          <a href="https://github.com/locfaker/amazing-project-2">
-            <img src="https://github-readme-stats.vercel.app/api/pin/?username=locfaker&repo=amazing-project-2&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9&icon_color=00d9ff" />
-          </a>
-        </div>
-      </td>
-    </tr>
-    <tr>
-      <td width="50%">
-        <h3 align="center">💡 Project 3</h3>
-        <div align="center">
-          <a href="https://github.com/locfaker/innovative-project-3">
-            <img src="https://github-readme-stats.vercel.app/api/pin/?username=locfaker&repo=innovative-project-3&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9&icon_color=00d9ff" />
-          </a>
-        </div>
-      </td>
-      <td width="50%">
-        <h3 align="center">🔥 Project 4</h3>
-        <div align="center">
-          <a href="https://github.com/locfaker/cool-project-4">
-            <img src="https://github-readme-stats.vercel.app/api/pin/?username=locfaker&repo=cool-project-4&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9&icon_color=00d9ff" />
-          </a>
-        </div>
-      </td>
-    </tr>
-  </table>
+  <a href="https://github.com/locfaker/Smart-Quiz-App---AI-Powered-Learning-Platform-by-LocDev">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=locfaker&repo=Smart-Quiz-App---AI-Powered-Learning-Platform-by-LocDev&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9&icon_color=00d9ff" alt="Smart Quiz App" />
+  </a>
+</div>
+
+<div align="center">
+  <h3>🧠 Smart Quiz App - AI-Powered Learning Platform</h3>
+  <p>Ứng dụng quiz thông minh được hỗ trợ bởi AI, giúp tối ưu hóa quá trình học tập</p>
+
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/AI-Powered-FF6B6B?style=for-the-badge&logo=brain&logoColor=white" />
+
+  <br/><br/>
+
+  <a href="https://github.com/locfaker/Smart-Quiz-App---AI-Powered-Learning-Platform-by-LocDev">
+    <img src="https://img.shields.io/badge/View%20Project-00D9FF?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
 </div>
 
 <br/>
@@ -318,6 +331,16 @@ console.log("Welcome to my GitHub profile! 👋");
 
 <br/>
 
+<br/>
+
+<div align="center">
+  <h3>📍 Hà Đông / Hà Nội, Vietnam</h3>
+  <h3>🕐 19:45 - cùng thời gian</h3>
+  <h3>🤖 Robot Alpha Asimov</h3>
+</div>
+
+<br/>
+
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=locfaker&label=Profile%20Views&color=00d9ff&style=for-the-badge" alt="Profile Views" />
   <img src="https://img.shields.io/badge/Thanks%20for%20visiting!-Come%20back%20soon!-00d9ff?style=for-the-badge" alt="Thanks" />
@@ -333,13 +356,7 @@ console.log("Welcome to my GitHub profile! 👋");
 
 <br/>
 
-## <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="35"> Fun Facts
 
-<div align="center">
-  <img src="https://readme-jokes.vercel.app/api?theme=tokyonight&hideBorder" alt="Jokes Card" />
-</div>
-
-<br/>
 
 ---
 
