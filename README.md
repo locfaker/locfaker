@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=300&section=header&text=Võ%20Đại%20Lộc&fontSize=90&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20Software%20Engineer&descAlignY=51&descAlign=62" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=300&section=header&text=Vũ%20Đăng%20Khoa&fontSize=90&fontAlignY=38&desc=Nhà%20phát%20triển%20Web/Ứng%20dụng%20%7C%20Người%20đam%20mê%20bảo%20mật%20%7C%20Embedded%20Systems%20Explorer&descAlignY=51&descAlign=62" />
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&duration=2000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&width=800&height=100&lines=👨‍💻+Full+Stack+Developer;🚀+Software+Engineer;💡+Problem+Solver;🌟+Tech+Enthusiast;☕+Coffee+%2B+Code+%3D+Magic" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&duration=2000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&width=900&height=120&lines=👨‍💻+Nhà+phát+triển+Web/Ứng+dụng;🔒+Người+đam+mê+bảo+mật;🤖+Embedded+Systems+Explorer;💡+Problem+Solver;🌟+Tech+Enthusiast;☕+Coffee+%2B+Code+%3D+Magic" alt="Typing SVG" />
 </div>
 
 <div align="center">
@@ -34,19 +34,29 @@ interface Developer {
   motto: string;
 }
 
-const vodailoc: Developer = {
-  name: "Võ Đại Lộc",
+const vudangkhoa: Developer = {
+  name: "Vũ Đăng Khoa",
   username: "locfaker",
-  location: "Vietnam 🇻🇳",
-  role: ["Full Stack Developer", "Software Engineer", "Problem Solver"],
-  languages: ["Vietnamese", "English", "JavaScript", "TypeScript", "Python"],
-  currentFocus: "Building scalable web applications with modern technologies",
-  hobbies: ["Coding", "Learning new tech", "Coffee brewing", "Gaming"],
-  motto: "Code with passion, debug with patience! 🚀"
+  location: "Hà Đông / Hà Nội, Vietnam 🇻🇳",
+  role: ["Web/App Developer", "Security Enthusiast", "Embedded Systems Explorer"],
+  languages: ["Vietnamese", "English", "JavaScript", "TypeScript", "Python", "C/C++"],
+  currentFocus: "Building secure web applications and exploring embedded systems",
+  hobbies: ["Coding", "Cybersecurity", "IoT Projects", "Robot Alpha Asimov"],
+  motto: "Đam mê công nghệ và kỹ thuật! 🚀"
 };
 
 console.log("Welcome to my GitHub profile! 👋");
 ```
+
+<br/>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/WEB/APP-DEVELOPMENT-4CAF50?style=for-the-badge&logo=code&logoColor=white" />
+  <img src="https://img.shields.io/badge/EMBEDDED-SYSTEMS-9C27B0?style=for-the-badge&logo=microchip&logoColor=white" />
+  <img src="https://img.shields.io/badge/SECURITY-CYBER-FF5722?style=for-the-badge&logo=security&logoColor=white" />
+</div>
+
+<br/>
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=locfaker&theme=tokyonight&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=FF6B6B&currStreakLabel=00D9FF" alt="GitHub Streak" />
@@ -58,115 +68,43 @@ console.log("Welcome to my GitHub profile! 👋");
   <img src="https://spotify-github-profile.vercel.app/api/spotify-playing" alt="Spotify Playing" width="350" />
 </div>
 
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="50"> Ngôn ngữ & Công nghệ
+## 🛠️ Ngăn xếp công nghệ:
 
-<br/>
+### 🌐 Phát triển Web/Ứng dụng:
+<div align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
+</div>
 
 <div align="center">
-  <table>
-    <tr>
-      <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=html" width="48" height="48" alt="HTML" />
-        <br>HTML
-      </td>
-      <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=css" width="48" height="48" alt="CSS" />
-        <br>CSS
-      </td>
-      <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=js" width="48" height="48" alt="JavaScript" />
-        <br>JavaScript
-      </td>
-      <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=ts" width="48" height="48" alt="TypeScript" />
-        <br>TypeScript
-      </td>
-      <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" />
-        <br>React
-      </td>
-      <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=vue" width="48" height="48" alt="Vue" />
-        <br>Vue.js
-      </td>
-      <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=angular" width="48" height="48" alt="Angular" />
-        <br>Angular
-      </td>
-      <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=nextjs" width="48" height="48" alt="Next.js" />
-        <br>Next.js
-      </td>
-    </tr>
-    <tr>
-      <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Node.js" />
-        <br>Node.js
-      </td>
-      <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=python" width="48" height="48" alt="Python" />
-        <br>Python
-      </td>
-      <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=java" width="48" height="48" alt="Java" />
-        <br>Java
-      </td>
-      <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=php" width="48" height="48" alt="PHP" />
-        <br>PHP
-      </td>
-      <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=express" width="48" height="48" alt="Express" />
-        <br>Express
-      </td>
-      <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=django" width="48" height="48" alt="Django" />
-        <br>Django
-      </td>
-      <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=spring" width="48" height="48" alt="Spring" />
-        <br>Spring
-      </td>
-      <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=laravel" width="48" height="48" alt="Laravel" />
-        <br>Laravel
-      </td>
-    </tr>
-    <tr>
-      <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=mysql" width="48" height="48" alt="MySQL" />
-        <br>MySQL
-      </td>
-      <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=postgresql" width="48" height="48" alt="PostgreSQL" />
-        <br>PostgreSQL
-      </td>
-      <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=mongodb" width="48" height="48" alt="MongoDB" />
-        <br>MongoDB
-      </td>
-      <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=redis" width="48" height="48" alt="Redis" />
-        <br>Redis
-      </td>
-      <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=aws" width="48" height="48" alt="AWS" />
-        <br>AWS
-      </td>
-      <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=gcp" width="48" height="48" alt="GCP" />
-        <br>GCP
-      </td>
-      <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=docker" width="48" height="48" alt="Docker" />
-        <br>Docker
-      </td>
-      <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=kubernetes" width="48" height="48" alt="Kubernetes" />
-        <br>Kubernetes
-      </td>
-    </tr>
-  </table>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+</div>
+
+### 🔒 An ninh:
+<div align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+</div>
+
+### 🤖 Hệ thống nhúng:
+<div align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" />
+  <img src="https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white" />
+</div>
+
+### 🖥️ Hệ thống nhúng:
+<div align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
+  <img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=Raspberry%20Pi&logoColor=white" />
 </div>
 
 <br/>
@@ -176,9 +114,45 @@ console.log("Welcome to my GitHub profile! 👋");
   <img src="https://skillicons.dev/icons?i=figma,photoshop,illustrator,xd,sketch" />
 </div>
 
-### 🔧 Development Tools
+## 🏆 GitHub Achievements
+
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=vscode,git,github,gitlab,postman,linux,nginx,jenkins,webpack,vite" />
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://github.com/locfaker/locfaker/blob/main/assets/badges/multilanguage.png?raw=true" width="120" alt="Multi-Language" />
+        <br><b>Multi-Language</b>
+        <br><small>Proficient in multiple programming languages</small>
+      </td>
+      <td align="center">
+        <img src="https://github.com/locfaker/locfaker/blob/main/assets/badges/repositories.png?raw=true" width="120" alt="Repositories" />
+        <br><b>Repository Creator</b>
+        <br><small>Created multiple useful repositories</small>
+      </td>
+      <td align="center">
+        <img src="https://github.com/locfaker/locfaker/blob/main/assets/badges/stars.png?raw=true" width="120" alt="Stars" />
+        <br><b>Star Collector</b>
+        <br><small>Received stars from community</small>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="https://github.com/locfaker/locfaker/blob/main/assets/badges/commits.png?raw=true" width="120" alt="Commits" />
+        <br><b>Commit Master</b>
+        <br><small>Consistent contributor</small>
+      </td>
+      <td align="center">
+        <img src="https://github.com/locfaker/locfaker/blob/main/assets/badges/pullrequest.png?raw=true" width="120" alt="Pull Request" />
+        <br><b>PR Contributor</b>
+        <br><small>Active in open source</small>
+      </td>
+      <td align="center">
+        <img src="https://github.com/locfaker/locfaker/blob/main/assets/badges/experience.png?raw=true" width="120" alt="Experience" />
+        <br><b>Experienced Developer</b>
+        <br><small>Years of coding experience</small>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"> GitHub Statistics
@@ -287,24 +261,26 @@ console.log("Welcome to my GitHub profile! 👋");
 ## <img src="https://media.giphy.com/media/Q7LHmoFwVP6Yc1swZs/giphy.gif" width="35"> Liên hệ với tôi
 
 <div align="center">
-  <a href="mailto:vodailoc@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=D14836" />
+  <a href="https://github.com/Vudangkhoa0910">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-  <a href="https://linkedin.com/in/vodailoc">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0077B5" />
+  <a href="https://facebook.com/vudangkhoa0910">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />
   </a>
-  <a href="https://facebook.com/vodailoc">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white&labelColor=1877F2" />
+  <a href="mailto:vudangkhoa0910@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-  <a href="https://twitter.com/locfaker">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=1DA1F2" />
+  <a href="https://linkedin.com/in/vudangkhoa0910">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://instagram.com/vodailoc">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=E4405F" />
-  </a>
-  <a href="https://discord.gg/locfaker">
-    <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white&labelColor=7289DA" />
-  </a>
+</div>
+
+<br/>
+
+<div align="center">
+  <h3>📍 Hà Đông / Hà Nội, Vietnam</h3>
+  <h3>🕐 19:45 - cùng thời gian</h3>
+  <h3>🤖 Robot Alpha Asimov</h3>
 </div>
 
 <br/>
