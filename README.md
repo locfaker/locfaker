@@ -18,6 +18,12 @@
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 </div>
 
+<!-- Dynamic Stats & Streak -->
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=locfaker&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true&bg_color=00000000&count_private=true" height="180" alt="Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=locfaker&theme=tokyonight&hide_border=true&background=00000000" height="180" alt="Streak" />
+</div>
+
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=locfaker&label=Profile%20Views&color=00d9ff&style=for-the-badge&labelColor=1a1b27" alt="Profile Views" />
   <img src="https://img.shields.io/github/followers/locfaker?label=Followers&style=for-the-badge&color=00d9ff&labelColor=1a1b27" alt="GitHub Followers" />
@@ -45,13 +51,10 @@
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 </div>
 
-
-
-
-
-
-
-## <div align="center">🛠️ <b>Tech Stack & Tools</b> 🛠️</div>
+<!-- Animated Header: Tech Stack -->
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=667EEA&center=true&vCenter=true&width=435&lines=🛠️+Tech+Stack+%26+Tools+🛠️" alt="Tech Stack Header" />
+</div>
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=html,css,java,python,cs,cpp&theme=dark" alt="Tech Stack" />
@@ -69,10 +72,13 @@
   <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Star.png" alt="Star" width="25" height="25" />
 </div>
 
-## <div align="center">🏆 <b>GitHub Achievements</b> 🏆</div>
+<!-- Animated Header: Achievements -->
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=667EEA&center=true&vCenter=true&width=500&lines=🏆+GitHub+Achievements+🏆" alt="Achievements Header" />
+</div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=locfaker&theme=tokyonight&no-frame=false&no-bg=false&margin-w=4&row=1&column=6" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=locfaker&theme=tokyonight&no-frame=false&no-bg=true&margin-w=4&row=1&column=6" alt="GitHub Trophies" />
 </div>
 
 <div align="center">
@@ -82,8 +88,6 @@
   <img src="https://media.giphy.com/media/3o7qDVHln5s9aZqs2k/giphy.gif" width="30" height="30" />
   <img src="https://media.giphy.com/media/3o7qDVHln5s9aZqs2k/giphy.gif" width="30" height="30" />
 </div>
-
-
 
 ## <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50"> Dự án nổi bật
 
@@ -107,10 +111,6 @@
     <img src="https://img.shields.io/badge/View%20Project-00D9FF?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </div>
-
-
-
-
 
 ## <img src="https://media.giphy.com/media/Q7LHmoFwVP6Yc1swZs/giphy.gif" width="60"><b> Liên hệ với tôi</b>
 
