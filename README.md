@@ -110,6 +110,7 @@
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 </div>
 
+<div align="center">
   <img src="https://github.com/locfaker/locfaker/raw/main/assets/separator.gif" width="100%">
 </div>
 
@@ -157,17 +158,10 @@
 
 <br/>
 
-## 📝 Latest Blog Posts
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
-
-## ⚡ Recent Activity
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
-
-## 📊 The Pulse of locfaker
+<div align="center">
 <!-- START_SECTION:dynamic_stats -->
 <!-- END_SECTION:dynamic_stats -->
+</div>
 
 ## <img src="https://media.giphy.com/media/fsEaZldNC8A1PJ3mwp/giphy.gif" width="60"> <b>Quote của ngày</b>
 
