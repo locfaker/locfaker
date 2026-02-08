@@ -2,6 +2,7 @@ name: Update Dynamic Stats
 on:
   schedule:
     - cron: '*/5 * * * *'
+    - cron: '1,6,11,16,21,26,31,36,41,46,51,56 * * * *' # Added offset to increase frequency chances
   workflow_dispatch:
   push:
     branches:
@@ -10,11 +11,18 @@ on:
 permissions:
   contents: write
 
+# Prevent overlapping runs
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   update-stats:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fetch all history for better rebasing
       
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -29,5 +37,10 @@ jobs:
           git config --global user.name "locfaker"
           git config --global user.email "locv2659@gmail.com"
           git add README.md
-          git diff --quiet && git diff --staged --quiet || git commit -m "📊 Update dynamic stats [skip ci]"
-          git push origin main
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "📊 Update dynamic stats [skip ci]"
+            git pull --rebase origin main
+            git push origin main
+          fi
