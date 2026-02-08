@@ -114,10 +114,7 @@
   <img src="https://github.com/locfaker/locfaker/raw/main/assets/separator.gif" width="100%">
 </div>
 
-<div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJmZzB6Z3Z6Z3Z6Z3Z6Z3Z6Z3Z6Z3Z6Z3Z6Z3Z6Z3Z6JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/L1R1TVr9WJKBUG7u3K/giphy.gif" width="300" alt="Coding Animation" />
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJmZzB6Z3Z6Z3Z6Z3Z6Z3Z6Z3Z6Z3Z6Z3Z6Z3Z6Z3Z6JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/3o7TKMGpxP5pXj9mY8/giphy.gif" width="300" alt="Neon Space" />
-</div>
+
 
 <div align="center">
   <img src="https://github.com/locfaker/locfaker/raw/main/assets/separator.gif" width="100%">
