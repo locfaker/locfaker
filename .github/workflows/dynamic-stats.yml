@@ -40,6 +40,10 @@ jobs:
           if git diff --quiet && git diff --staged --quiet; then
             echo "No changes to commit"
           else
+            # Force commit timestamp to Vietnam time (UTC+7)
+            export TZ='Asia/Ho_Chi_Minh'
+            export GIT_AUTHOR_DATE=$(date --rfc-2822)
+            export GIT_COMMITTER_DATE="$GIT_AUTHOR_DATE"
             git commit -m "📊 Update dynamic stats [skip ci]"
             git pull --rebase origin main
             git push origin main
