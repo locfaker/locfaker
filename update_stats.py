@@ -49,6 +49,8 @@ def get_unlimited_word():
 
 def update_readme():
     word_info = get_unlimited_word()
+    # Vietnam Time (UTC+7)
+    vn_time = datetime.datetime.utcnow() + datetime.timedelta(hours=7)
 
     # Chỉ để lại thông tin từ vựng Tiếng Anh theo yêu cầu
     stats_content = [
@@ -64,7 +66,9 @@ def update_readme():
     end_tag = "<!-- END_SECTION:dynamic_stats -->"
     
     pattern = f"{re.escape(start_tag)}.*?{re.escape(end_tag)}"
-    replacement = f"{start_tag}\n" + "\n".join(stats_content) + f"\n{end_tag}"
+    # Thêm comment ẩn chứa timestamp để đảm bảo file luôn thay đổi -> tạo commit mỗi 5p
+    hidden_timestamp = f"<!-- Last refresh: {vn_time.strftime('%Y-%m-%d %H:%M:%S')} -->"
+    replacement = f"{start_tag}\n" + "\n".join(stats_content) + f"\n{hidden_timestamp}\n{end_tag}"
     
     new_readme = re.sub(pattern, replacement, readme, flags=re.DOTALL)
     
