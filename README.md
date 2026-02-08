@@ -168,6 +168,10 @@
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
 
+## 📊 The Pulse of locfaker
+<!-- START_SECTION:dynamic_stats -->
+<!-- END_SECTION:dynamic_stats -->
+
 ## <img src="https://media.giphy.com/media/fsEaZldNC8A1PJ3mwp/giphy.gif" width="60"> <b>Quote của ngày</b>
 
 <br/>
