@@ -7,30 +7,25 @@ import urllib.request
 
 # Danh sách từ vựng dự phòng (Backup list)
 BACKUP_WORDS = [
-    {"word": "Resilient", "type": "adj", "meaning": "Kiên cường", "example": "Young people are amazingly resilient."},
-    {"word": "Ambiguous", "type": "adj", "meaning": "Mơ hồ", "example": "His reply was somewhat ambiguous."},
-    {"word": "Pragmatic", "type": "adj", "meaning": "Thực tế", "example": "A pragmatic approach is often best."},
-    {"word": "Substantial", "type": "adj", "meaning": "Đáng kể", "example": "There is a substantial difference."},
-    {"word": "Innovative", "type": "adj", "meaning": "Sáng tạo", "example": "An innovative manager."},
-    {"word": "Versatile", "type": "adj", "meaning": "Linh hoạt", "example": "A versatile person."},
-    {"word": "Benevolent", "type": "adj", "meaning": "Nhân từ", "example": "A benevolent uncle."},
-    {"word": "Profound", "type": "adj", "meaning": "Sâu sắc", "example": "A profound effect."}
+    {"word": "Resilient", "type": "adj", "meaning": "Kiên cường, mau phục hồi", "example": "Young people are amazingly resilient."},
+    {"word": "Ambiguous", "type": "adj", "meaning": "Mơ hồ, nhập nhằng", "example": "His reply was somewhat ambiguous."},
+    {"word": "Pragmatic", "type": "adj", "meaning": "Thực dụng, thực tế", "example": "A pragmatic approach is often best."},
+    {"word": "Substantial", "type": "adj", "meaning": "Đáng kể, quan trọng", "example": "There is a substantial difference."},
+    {"word": "Innovative", "type": "adj", "meaning": "Sáng tạo, đổi mới", "example": "An innovative manager."},
+    {"word": "Versatile", "type": "adj", "meaning": "Linh hoạt, đa năng", "example": "A versatile person."},
+    {"word": "Benevolent", "type": "adj", "meaning": "Nhân từ, rộng lượng", "example": "A benevolent uncle."},
+    {"word": "Profound", "type": "adj", "meaning": "Sâu sắc, uyên thâm", "example": "A profound effect."}
 ]
 
-def get_progress_bar(percentage):
-    filled = int(percentage / 5)
-    bar = "█" * filled + "░" * (20 - filled)
-    return f"| {bar} | {percentage:.2f}%"
-
 def get_unlimited_word():
-    """Lấy từ vựng ngẫu nhiên từ API để đảm bảo không giới hạn"""
+    """Lấy từ vựng ngẫu nhiên từ API"""
     try:
         # 1. Lấy một từ ngẫu nhiên
         word_url = "https://random-word-api.herokuapp.com/word?number=1"
         with urllib.request.urlopen(word_url, timeout=5) as response:
             word = json.loads(response.read().decode())[0]
         
-        # 2. Lấy định nghĩa của từ đó
+        # 2. Lấy định nghĩa
         dict_url = f"https://api.dictionaryapi.dev/api/v2/entries/en/{word}"
         with urllib.request.urlopen(dict_url, timeout=5) as response:
             data = json.loads(response.read().decode())[0]
@@ -53,33 +48,13 @@ def get_unlimited_word():
         return random.choice(BACKUP_WORDS)
 
 def update_readme():
-    vn_time = datetime.datetime.utcnow() + datetime.timedelta(hours=7)
-    
-    # Progress calculations
-    seconds_in_day = 24 * 60 * 60
-    seconds_passed = (vn_time.hour * 3600) + (vn_time.minute * 60) + vn_time.second
-    day_percentage = (seconds_passed / seconds_in_day) * 100
-    
-    year = vn_time.year
-    year_start = datetime.datetime(year, 1, 1)
-    year_end = datetime.datetime(year + 1, 1, 1)
-    year_total_seconds = (year_end - year_start).total_seconds()
-    year_passed_seconds = (vn_time - year_start).total_seconds()
-    year_percentage = (year_passed_seconds / year_total_seconds) * 100
-
-    # Lấy từ vựng (Ưu tiên API để 'không giới hạn')
     word_info = get_unlimited_word()
 
+    # Chỉ để lại thông tin từ vựng Tiếng Anh theo yêu cầu
     stats_content = [
-        "### 🕒 Live Status",
-        f"- **Vietnam Time**: `{vn_time.strftime('%H:%M:%S')}` (Quy Nhơn/Gia Lai)",
-        f"- **Day Progress**: \n  {get_progress_bar(day_percentage)}",
-        f"- **Year Progress**: \n  {get_progress_bar(year_percentage)}",
-        "\n### 📚 English Word of the Moment (Unlimited Variety)",
-        f"> **{word_info['word']}** ({word_info['type']})",
-        f"> *Definition: {word_info['meaning']}*",
-        f"> *Example: {word_info['example']}*",
-        "\n*Last updated every 5 minutes using real-time dictionary data.*"
+        f"**{word_info['word']}** ({word_info['type']})  ",
+        f"**Định nghĩa**: {word_info['meaning']}  ",
+        f"**Ví dụ**: {word_info['example']}"
     ]
     
     with open("README.md", "r", encoding="utf-8") as f:
