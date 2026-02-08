@@ -110,19 +110,16 @@
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 </div>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=locfaker&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true&bg_color=00000000&count_private=true" height="180" alt="Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=locfaker&theme=tokyonight&hide_border=true&background=00000000" height="180" alt="Streak" />
+  <img src="https://github.com/locfaker/locfaker/raw/main/assets/separator.gif" width="100%">
 </div>
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=locfaker&label=Profile%20Views&color=00d9ff&style=for-the-badge&labelColor=1a1b27" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/locfaker?label=Followers&style=for-the-badge&color=00d9ff&labelColor=1a1b27" alt="GitHub Followers" />
-  <img src="https://img.shields.io/github/stars/locfaker?label=Stars&style=for-the-badge&color=00d9ff&labelColor=1a1b27" alt="GitHub Stars" />
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJmZzB6Z3Z6Z3Z6Z3Z6Z3Z6Z3Z6Z3Z6Z3Z6Z3Z6Z3Z6JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/L1R1TVr9WJKBUG7u3K/giphy.gif" width="300" alt="Coding Animation" />
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJmZzB6Z3Z6Z3Z6Z3Z6Z3Z6Z3Z6Z3Z6Z3Z6Z3Z6Z3Z6JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/3o7TKMGpxP5pXj9mY8/giphy.gif" width="300" alt="Neon Space" />
 </div>
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+  <img src="https://github.com/locfaker/locfaker/raw/main/assets/separator.gif" width="100%">
 </div>
 
 <div align="center">
