@@ -2,7 +2,6 @@ name: Update Dynamic Stats
 on:
   schedule:
     - cron: '*/5 * * * *'
-    - cron: '1,6,11,16,21,26,31,36,41,46,51,56 * * * *' # Added offset to increase frequency chances
   workflow_dispatch:
   push:
     branches:
@@ -11,7 +10,6 @@ on:
 permissions:
   contents: write
 
-# Prevent overlapping runs
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
@@ -22,7 +20,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Fetch all history for better rebasing
+          fetch-depth: 0
       
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -33,18 +31,25 @@ jobs:
         run: python update_stats.py
         
       - name: Commit and Push
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "locfaker"
           git config --global user.email "locv2659@gmail.com"
           git add README.md
+          
           if git diff --quiet && git diff --staged --quiet; then
-            echo "No changes to commit"
+            echo "No changes detected in README.md"
           else
-            # Force commit timestamp to Vietnam time (UTC+7)
+            # Set Vietnam Timezone for the commit date
             export TZ='Asia/Ho_Chi_Minh'
-            export GIT_AUTHOR_DATE=$(date --rfc-2822)
-            export GIT_COMMITTER_DATE="$GIT_AUTHOR_DATE"
-            git commit -m "📊 Update dynamic stats [skip ci]"
+            current_time=$(date +"%Y-%m-%dT%H:%M:%S%z")
+            export GIT_AUTHOR_DATE="$current_time"
+            export GIT_COMMITTER_DATE="$current_time"
+            
+            git commit -m "📊 Update dynamic stats (VN Time: $(date +'%H:%M')) [skip ci]"
+            
+            # Robust push with retry and rebase
             git pull --rebase origin main
             git push origin main
           fi
