@@ -167,10 +167,10 @@
 
 <div align="center">
 <!-- START_SECTION:dynamic_stats -->
-**Pragmatic** (adj)  
-**Định nghĩa**: Thực dụng, thực tế  
-**Ví dụ**: A pragmatic approach is often best.
-<!-- Last refresh: 2026-02-09 19:04:28.493831 -->
+**Substantial** (adj)  
+**Định nghĩa**: Đáng kể, quan trọng  
+**Ví dụ**: There is a substantial difference.
+<!-- Last refresh: 2026-02-09 20:46:21.185703 -->
 <!-- END_SECTION:dynamic_stats -->
 </div>
 
