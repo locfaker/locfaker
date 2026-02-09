@@ -167,10 +167,10 @@
 
 <div align="center">
 <!-- START_SECTION:dynamic_stats -->
-**Substantial** (adj)  
-**Định nghĩa**: Đáng kể, quan trọng  
-**Ví dụ**: There is a substantial difference.
-<!-- Last refresh: 2026-02-09 15:29:32.947542 -->
+**Pragmatic** (adj)  
+**Định nghĩa**: Thực dụng, thực tế  
+**Ví dụ**: A pragmatic approach is often best.
+<!-- Last refresh: 2026-02-09 16:33:48.840253 -->
 <!-- END_SECTION:dynamic_stats -->
 </div>
 
