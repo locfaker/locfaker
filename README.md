@@ -129,9 +129,7 @@
 </div>
 
 <div align="center">
-  <a href="https://spotify-readme.tthn0.com/api/auth">
-    <img src="https://spotify-readme.tthn0.com/api/view?uid=locfaker&theme=tokyonight&show_offline=true&background_color=1a1b27" alt="Spotify Now Playing" width="400" />
-  </a>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=locfaker&theme=tokyonight&area=true&hide_border=true&bg_color=1a1b27" width="100%" alt="Activity Graph" />
 </div>
 
 <div align="center">
