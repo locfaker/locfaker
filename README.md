@@ -167,10 +167,10 @@
 
 <div align="center">
 <!-- START_SECTION:dynamic_stats -->
-**Resilient** (adj)  
-**Định nghĩa**: Kiên cường, mau phục hồi  
-**Ví dụ**: Young people are amazingly resilient.
-<!-- Last refresh: 2026-02-09 14:41:46.609639 -->
+**Substantial** (adj)  
+**Định nghĩa**: Đáng kể, quan trọng  
+**Ví dụ**: There is a substantial difference.
+<!-- Last refresh: 2026-02-09 15:29:32.947542 -->
 <!-- END_SECTION:dynamic_stats -->
 </div>
 
