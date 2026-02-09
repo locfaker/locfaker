@@ -167,10 +167,10 @@
 
 <div align="center">
 <!-- START_SECTION:dynamic_stats -->
-**Substantial** (adj)  
-**Định nghĩa**: Đáng kể, quan trọng  
-**Ví dụ**: There is a substantial difference.
-<!-- Last refresh: 2026-02-10 03:32:14.198500 -->
+**Versatile** (adj)  
+**Định nghĩa**: Linh hoạt, đa năng  
+**Ví dụ**: A versatile person.
+<!-- Last refresh: 2026-02-10 04:22:08.210227 -->
 <!-- END_SECTION:dynamic_stats -->
 </div>
 
