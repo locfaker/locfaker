@@ -129,8 +129,8 @@
 </div>
 
 <div align="center">
-  <a href="https://spotify-github-profile.vercel.app/api/auth">
-    <img src="https://spotify-github-profile.vercel.app/api/view?uid=locfaker&cover_image=true&theme=tokyonight&show_offline=true&background_color=1a1b27" alt="Spotify Now Playing" width="400" />
+  <a href="https://spotify-readme.tthn0.com/api/auth">
+    <img src="https://spotify-readme.tthn0.com/api/view?uid=locfaker&theme=tokyonight&show_offline=true&background_color=1a1b27" alt="Spotify Now Playing" width="400" />
   </a>
 </div>
 
