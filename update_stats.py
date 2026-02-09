@@ -66,8 +66,8 @@ def update_readme():
     end_tag = "<!-- END_SECTION:dynamic_stats -->"
     
     pattern = f"{re.escape(start_tag)}.*?{re.escape(end_tag)}"
-    # Thêm comment ẩn chứa timestamp để đảm bảo file luôn thay đổi -> tạo commit mỗi 5p
-    hidden_timestamp = f"<!-- Last refresh: {vn_time.strftime('%Y-%m-%d %H:%M:%S')} -->"
+    # Thêm comment ẩn chứa timestamp cực chi tiết để đảm bảo file luôn thay đổi
+    hidden_timestamp = f"<!-- Last refresh: {vn_time.strftime('%Y-%m-%d %H:%M:%S.%f')} -->"
     replacement = f"{start_tag}\n" + "\n".join(stats_content) + f"\n{hidden_timestamp}\n{end_tag}"
     
     new_readme = re.sub(pattern, replacement, readme, flags=re.DOTALL)
