@@ -128,8 +128,20 @@
   </picture>
 </div>
 
+<br/>
+
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=locfaker&theme=tokyonight&area=true&hide_border=true&bg_color=1a1b27" width="100%" alt="Activity Graph" />
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHp4Z3p6Z3p6Z3p6Z3p6Z3p6Z3p6Z3p6Z3p6Z3p6Z3p6Z3p6JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/f6hkkfMV1p0lvHxlY9/giphy.gif" width="100%" alt="Lofi Girl Chill" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=A78BFA&center=true&vCenter=true&width=400&lines=🎧+Currently+Vibing+to+Lofi;✨+Coding+in+Flow+State;🌃+Night+City+Vibes" alt="Chill Status" />
+</div>
+
+<div align="center">
+  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/80728820-e06b-4f96-9c9e-9df46f0cc0a5" width="600" height="2" />
 </div>
 
 <div align="center">
