@@ -1,0 +1,54 @@
+name: "🚀 Unified Profile Heartbeat"
+
+on:
+  schedule:
+    - cron: '*/15 * * * *' # Chạy mỗi 15 phút - Tần suất an toàn, không bị GitHub bóp
+  workflow_dispatch:      # Cho phép kích hoạt bằng tay 100% không bị trễ
+  push:
+    branches:
+      - main              # Tự động chạy khi có code mới
+
+permissions:
+  contents: write
+
+jobs:
+  heartbeat:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+          
+      - name: 📊 Update Dynamic Stats (Vocabulary)
+        run: python update_stats.py
+        
+      - name: 🎵 Generate Music Wave
+        run: python generate_wave.py
+        
+      - name: 🛡️ Commit and Push Changes
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name "locfaker"
+          git config --global user.email "locv2659@gmail.com"
+          git add README.md assets/music-wave.svg
+          
+          # Chỉ commit nếu có thay đổi thật sự
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "No meaningful changes to commit."
+          else
+            # Force Vietnam Time for accurate contribution tracking
+            export TZ='Asia/Ho_Chi_Minh'
+            current_time=$(date +"%Y-%m-%dT%H:%M:%S%z")
+            export GIT_AUTHOR_DATE="$current_time"
+            export GIT_COMMITTER_DATE="$current_time"
+            
+            git commit -m "💓 Heartbeat: Active at $(date +'%H:%M') [skip ci]"
+            git pull --rebase origin main
+            git push origin main
+          fi
