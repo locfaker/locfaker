@@ -167,10 +167,10 @@
 
 <div align="center">
 <!-- START_SECTION:dynamic_stats -->
-**Benevolent** (adj)  
-**Định nghĩa**: Nhân từ, rộng lượng  
-**Ví dụ**: A benevolent uncle.
-<!-- Last refresh: 2026-02-10 16:33:16.829966 -->
+**Ambiguous** (adj)  
+**Định nghĩa**: Mơ hồ, nhập nhằng  
+**Ví dụ**: His reply was somewhat ambiguous.
+<!-- Last refresh: 2026-02-10 17:36:34.906853 -->
 <!-- END_SECTION:dynamic_stats -->
 </div>
 
