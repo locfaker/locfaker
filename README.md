@@ -170,7 +170,7 @@
 **Pragmatic** (adj)  
 **Định nghĩa**: Thực dụng, thực tế  
 **Ví dụ**: A pragmatic approach is often best.
-<!-- Last refresh: 2026-02-11 05:41:02.221923 -->
+<!-- Last refresh: 2026-02-11 06:24:04.744526 -->
 <!-- END_SECTION:dynamic_stats -->
 </div>
 
