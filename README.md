@@ -167,10 +167,10 @@
 
 <div align="center">
 <!-- START_SECTION:dynamic_stats -->
-**Substantial** (adj)  
-**Định nghĩa**: Đáng kể, quan trọng  
-**Ví dụ**: There is a substantial difference.
-<!-- Last refresh: 2026-02-10 12:16:41.469362 -->
+**Ambiguous** (adj)  
+**Định nghĩa**: Mơ hồ, nhập nhằng  
+**Ví dụ**: His reply was somewhat ambiguous.
+<!-- Last refresh: 2026-02-10 13:41:04.036572 -->
 <!-- END_SECTION:dynamic_stats -->
 </div>
 
