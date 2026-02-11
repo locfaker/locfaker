@@ -80,10 +80,10 @@
 
 <div align="center">
 <!-- START_SECTION:dynamic_stats -->
-**Innovative** (adj)  
-**Định nghĩa**: Sáng tạo, đổi mới  
-**Ví dụ**: An innovative manager.
-<!-- Last refresh: 2026-02-11 13:57:39.841682 -->
+**Pragmatic** (adj)  
+**Định nghĩa**: Thực dụng, thực tế  
+**Ví dụ**: A pragmatic approach is often best.
+<!-- Last refresh: 2026-02-11 14:18:11.451869 -->
 <!-- END_SECTION:dynamic_stats -->
 </div>
 
