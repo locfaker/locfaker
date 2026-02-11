@@ -80,10 +80,10 @@
 
 <div align="center">
 <!-- START_SECTION:dynamic_stats -->
-**Pragmatic** (adj)  
-**Định nghĩa**: Thực dụng, thực tế  
-**Ví dụ**: A pragmatic approach is often best.
-<!-- Last refresh: 2026-02-12 06:00:31.782972 -->
+**Versatile** (adj)  
+**Định nghĩa**: Linh hoạt, đa năng  
+**Ví dụ**: A versatile person.
+<!-- Last refresh: 2026-02-12 06:45:52.749224 -->
 <!-- END_SECTION:dynamic_stats -->
 </div>
 
