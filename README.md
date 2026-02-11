@@ -80,10 +80,10 @@
 
 <div align="center">
 <!-- START_SECTION:dynamic_stats -->
-**Pragmatic** (adj)  
-**Định nghĩa**: Thực dụng, thực tế  
-**Ví dụ**: A pragmatic approach is often best.
-<!-- Last refresh: 2026-02-11 17:08:50.288481 -->
+**Resilient** (adj)  
+**Định nghĩa**: Kiên cường, mau phục hồi  
+**Ví dụ**: Young people are amazingly resilient.
+<!-- Last refresh: 2026-02-11 18:08:17.615297 -->
 <!-- END_SECTION:dynamic_stats -->
 </div>
 
