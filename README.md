@@ -80,10 +80,10 @@
 
 <div align="center">
 <!-- START_SECTION:dynamic_stats -->
-**Pragmatic** (adj)  
-**Định nghĩa**: Thực dụng, thực tế  
-**Ví dụ**: A pragmatic approach is often best.
-<!-- Last refresh: 2026-02-12 21:06:02.042929 -->
+**Profound** (adj)  
+**Định nghĩa**: Sâu sắc, uyên thâm  
+**Ví dụ**: A profound effect.
+<!-- Last refresh: 2026-02-12 22:05:42.494371 -->
 <!-- END_SECTION:dynamic_stats -->
 </div>
 
