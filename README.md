@@ -83,7 +83,7 @@
 **Ambiguous** (adj)  
 **Định nghĩa**: Mơ hồ, nhập nhằng  
 **Ví dụ**: His reply was somewhat ambiguous.
-<!-- Last refresh: 2026-02-12 18:53:56.289527 -->
+<!-- Last refresh: 2026-02-12 19:45:16.482609 -->
 <!-- END_SECTION:dynamic_stats -->
 </div>
 
