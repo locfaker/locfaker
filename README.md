@@ -80,10 +80,10 @@
 
 <div align="center">
 <!-- START_SECTION:dynamic_stats -->
-**Versatile** (adj)  
-**Định nghĩa**: Linh hoạt, đa năng  
-**Ví dụ**: A versatile person.
-<!-- Last refresh: 2026-02-12 08:24:36.838332 -->
+**Profound** (adj)  
+**Định nghĩa**: Sâu sắc, uyên thâm  
+**Ví dụ**: A profound effect.
+<!-- Last refresh: 2026-02-12 11:02:28.178825 -->
 <!-- END_SECTION:dynamic_stats -->
 </div>
 
