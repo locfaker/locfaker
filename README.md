@@ -80,10 +80,10 @@
 
 <div align="center">
 <!-- START_SECTION:dynamic_stats -->
-**Resilient** (adj)  
-**Định nghĩa**: Kiên cường, mau phục hồi  
-**Ví dụ**: Young people are amazingly resilient.
-<!-- Last refresh: 2026-02-13 12:37:14.257834 -->
+**Pragmatic** (adj)  
+**Định nghĩa**: Thực dụng, thực tế  
+**Ví dụ**: A pragmatic approach is often best.
+<!-- Last refresh: 2026-02-13 13:39:13.136546 -->
 <!-- END_SECTION:dynamic_stats -->
 </div>
 
