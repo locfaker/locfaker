@@ -80,10 +80,10 @@
 
 <div align="center">
 <!-- START_SECTION:dynamic_stats -->
-**Profound** (adj)  
-**Định nghĩa**: Sâu sắc, uyên thâm  
-**Ví dụ**: A profound effect.
-<!-- Last refresh: 2026-02-15 01:58:21.345209 -->
+**Substantial** (adj)  
+**Định nghĩa**: Đáng kể, quan trọng  
+**Ví dụ**: There is a substantial difference.
+<!-- Last refresh: 2026-02-15 02:25:09.632268 -->
 <!-- END_SECTION:dynamic_stats -->
 </div>
 
