@@ -80,10 +80,10 @@
 
 <div align="center">
 <!-- START_SECTION:dynamic_stats -->
-**Ambiguous** (adj)  
-**Định nghĩa**: Mơ hồ, nhập nhằng  
-**Ví dụ**: His reply was somewhat ambiguous.
-<!-- Last refresh: 2026-02-15 01:23:43.512172 -->
+**Profound** (adj)  
+**Định nghĩa**: Sâu sắc, uyên thâm  
+**Ví dụ**: A profound effect.
+<!-- Last refresh: 2026-02-15 01:58:21.345209 -->
 <!-- END_SECTION:dynamic_stats -->
 </div>
 
