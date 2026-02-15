@@ -80,10 +80,10 @@
 
 <div align="center">
 <!-- START_SECTION:dynamic_stats -->
-**Versatile** (adj)  
-**Định nghĩa**: Linh hoạt, đa năng  
-**Ví dụ**: A versatile person.
-<!-- Last refresh: 2026-02-16 01:59:51.607326 -->
+**Ambiguous** (adj)  
+**Định nghĩa**: Mơ hồ, nhập nhằng  
+**Ví dụ**: His reply was somewhat ambiguous.
+<!-- Last refresh: 2026-02-16 02:30:48.157654 -->
 <!-- END_SECTION:dynamic_stats -->
 </div>
 
