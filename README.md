@@ -80,10 +80,10 @@
 
 <div align="center">
 <!-- START_SECTION:dynamic_stats -->
-**Profound** (adj)  
-**Định nghĩa**: Sâu sắc, uyên thâm  
-**Ví dụ**: A profound effect.
-<!-- Last refresh: 2026-02-18 10:58:17.127569 -->
+**Pragmatic** (adj)  
+**Định nghĩa**: Thực dụng, thực tế  
+**Ví dụ**: A pragmatic approach is often best.
+<!-- Last refresh: 2026-02-18 12:23:13.588906 -->
 <!-- END_SECTION:dynamic_stats -->
 </div>
 
