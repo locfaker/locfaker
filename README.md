@@ -80,10 +80,10 @@
 
 <div align="center">
 <!-- START_SECTION:dynamic_stats -->
-**Ambiguous** (adj)  
-**Định nghĩa**: Mơ hồ, nhập nhằng  
-**Ví dụ**: His reply was somewhat ambiguous.
-<!-- Last refresh: 2026-02-18 22:34:28.438314 -->
+**Substantial** (adj)  
+**Định nghĩa**: Đáng kể, quan trọng  
+**Ví dụ**: There is a substantial difference.
+<!-- Last refresh: 2026-02-18 23:43:05.779937 -->
 <!-- END_SECTION:dynamic_stats -->
 </div>
 
