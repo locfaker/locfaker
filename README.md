@@ -83,7 +83,7 @@
 **Resilient** (adj)  
 **Định nghĩa**: Kiên cường, mau phục hồi  
 **Ví dụ**: Young people are amazingly resilient.
-<!-- Last refresh: 2026-02-18 13:36:58.045048 -->
+<!-- Last refresh: 2026-02-18 14:37:47.649809 -->
 <!-- END_SECTION:dynamic_stats -->
 </div>
 
