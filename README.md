@@ -80,10 +80,10 @@
 
 <div align="center">
 <!-- START_SECTION:dynamic_stats -->
-**Resilient** (adj)  
-**Định nghĩa**: Kiên cường, mau phục hồi  
-**Ví dụ**: Young people are amazingly resilient.
-<!-- Last refresh: 2026-02-19 14:36:34.052642 -->
+**Innovative** (adj)  
+**Định nghĩa**: Sáng tạo, đổi mới  
+**Ví dụ**: An innovative manager.
+<!-- Last refresh: 2026-02-19 15:25:13.499816 -->
 <!-- END_SECTION:dynamic_stats -->
 </div>
 
