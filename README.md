@@ -80,10 +80,10 @@
 
 <div align="center">
 <!-- START_SECTION:dynamic_stats -->
-**Innovative** (adj)  
-**Định nghĩa**: Sáng tạo, đổi mới  
-**Ví dụ**: An innovative manager.
-<!-- Last refresh: 2026-02-20 02:28:13.880499 -->
+**Ambiguous** (adj)  
+**Định nghĩa**: Mơ hồ, nhập nhằng  
+**Ví dụ**: His reply was somewhat ambiguous.
+<!-- Last refresh: 2026-02-20 02:57:45.153612 -->
 <!-- END_SECTION:dynamic_stats -->
 </div>
 
