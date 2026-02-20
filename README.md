@@ -1,7 +1,6 @@
-<!-- ASCII Art Banner - Faker Champion -->
 <div align="center">
-  
-
+  <img src="https://imgur.com/zeuHIk9.gif" width="489" height="407" />
+</div>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,50:764ba2,100:f093fb&height=250&section=header&fontSize=55&fontColor=ffffff&fontAlignY=40&animation=fadeIn" />
@@ -79,12 +78,9 @@
 <br/>
 
 <div align="center">
-<!-- START_SECTION:dynamic_stats -->
 **Pragmatic** (adj)  
 **Định nghĩa**: Thực dụng, thực tế  
 **Ví dụ**: A pragmatic approach is often best.
-<!-- Last refresh: 2026-02-21 06:21:40.066360 -->
-<!-- END_SECTION:dynamic_stats -->
 </div>
 
 ## <img src="https://media.giphy.com/media/fsEaZldNC8A1PJ3mwp/giphy.gif" width="60"> <b>Quote của ngày</b>
