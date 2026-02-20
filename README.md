@@ -80,10 +80,10 @@
 
 <div align="center">
 <!-- START_SECTION:dynamic_stats -->
-**Benevolent** (adj)  
-**Định nghĩa**: Nhân từ, rộng lượng  
-**Ví dụ**: A benevolent uncle.
-<!-- Last refresh: 2026-02-21 05:17:56.389693 -->
+**Resilient** (adj)  
+**Định nghĩa**: Kiên cường, mau phục hồi  
+**Ví dụ**: Young people are amazingly resilient.
+<!-- Last refresh: 2026-02-21 05:51:59.760668 -->
 <!-- END_SECTION:dynamic_stats -->
 </div>
 
