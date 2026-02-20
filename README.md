@@ -83,7 +83,7 @@
 **Substantial** (adj)  
 **Định nghĩa**: Đáng kể, quan trọng  
 **Ví dụ**: There is a substantial difference.
-<!-- Last refresh: 2026-02-20 20:06:09.281890 -->
+<!-- Last refresh: 2026-02-20 21:04:53.933761 -->
 <!-- END_SECTION:dynamic_stats -->
 </div>
 
