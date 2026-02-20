@@ -80,10 +80,10 @@
 
 <div align="center">
 <!-- START_SECTION:dynamic_stats -->
-**Pragmatic** (adj)  
-**Định nghĩa**: Thực dụng, thực tế  
-**Ví dụ**: A pragmatic approach is often best.
-<!-- Last refresh: 2026-02-20 17:02:46.554288 -->
+**Benevolent** (adj)  
+**Định nghĩa**: Nhân từ, rộng lượng  
+**Ví dụ**: A benevolent uncle.
+<!-- Last refresh: 2026-02-20 17:57:05.014389 -->
 <!-- END_SECTION:dynamic_stats -->
 </div>
 
