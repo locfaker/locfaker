@@ -80,10 +80,10 @@
 
 <div align="center">
 <!-- START_SECTION:dynamic_stats -->
-**Resilient** (adj)  
-**Định nghĩa**: Kiên cường, mau phục hồi  
-**Ví dụ**: Young people are amazingly resilient.
-<!-- Last refresh: 2026-02-21 02:47:06.473924 -->
+**Profound** (adj)  
+**Định nghĩa**: Sâu sắc, uyên thâm  
+**Ví dụ**: A profound effect.
+<!-- Last refresh: 2026-02-21 03:22:05.222089 -->
 <!-- END_SECTION:dynamic_stats -->
 </div>
 
