@@ -80,10 +80,10 @@
 
 <div align="center">
 <!-- START_SECTION:dynamic_stats -->
-**Versatile** (adj)  
-**Định nghĩa**: Linh hoạt, đa năng  
-**Ví dụ**: A versatile person.
-<!-- Last refresh: 2026-02-21 00:37:12.680927 -->
+**Resilient** (adj)  
+**Định nghĩa**: Kiên cường, mau phục hồi  
+**Ví dụ**: Young people are amazingly resilient.
+<!-- Last refresh: 2026-02-21 01:06:38.868729 -->
 <!-- END_SECTION:dynamic_stats -->
 </div>
 
