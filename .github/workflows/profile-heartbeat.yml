@@ -1,12 +1,7 @@
 name: "🚀 Unified Profile Heartbeat"
 
 on:
-  schedule:
-    - cron: '*/15 * * * *' # Chạy mỗi 15 phút - Tần suất an toàn, không bị GitHub bóp
   workflow_dispatch:      # Cho phép kích hoạt bằng tay 100% không bị trễ
-  push:
-    branches:
-      - main              # Tự động chạy khi có code mới
 
 permissions:
   contents: write
