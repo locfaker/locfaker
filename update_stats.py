@@ -50,7 +50,7 @@ def get_unlimited_word():
 def update_readme():
     word_info = get_unlimited_word()
     # Vietnam Time (UTC+7)
-    vn_time = datetime.datetime.utcnow() + datetime.timedelta(hours=7)
+    vn_time = datetime.datetime.now(datetime.UTC) + datetime.timedelta(hours=7)
 
     # Chỉ để lại thông tin từ vựng Tiếng Anh theo yêu cầu
     stats_content = [

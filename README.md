@@ -78,9 +78,11 @@
 <br/>
 
 <div align="center">
+<!-- START_SECTION:dynamic_stats -->
 **Pragmatic** (adj)  
 **Định nghĩa**: Thực dụng, thực tế  
 **Ví dụ**: A pragmatic approach is often best.
+<!-- END_SECTION:dynamic_stats -->
 </div>
 
 ## <img src="https://media.giphy.com/media/fsEaZldNC8A1PJ3mwp/giphy.gif" width="60"> <b>Quote của ngày</b>
