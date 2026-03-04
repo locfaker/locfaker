@@ -1,6 +1,8 @@
 name: Generate Snake
 
 on:
+  schedule:
+    - cron: '0 0 * * 0'  # Runs automatically every Sunday at 00:00 UTC
   # allows to manually run the job at any time
   workflow_dispatch:
 
