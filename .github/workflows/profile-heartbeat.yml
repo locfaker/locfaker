@@ -1,6 +1,8 @@
 name: "🚀 Unified Profile Heartbeat"
 
 on:
+  schedule:
+    - cron: '0 */6 * * *'  # Runs automatically every 6 hours
   workflow_dispatch:      # Cho phép kích hoạt bằng tay 100% không bị trễ
 
 permissions:
