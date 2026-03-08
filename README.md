@@ -86,6 +86,248 @@
 <!-- END_SECTION:dynamic_stats -->
 </div>
 
+## 🛡️ Spring Security Research
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2500&pause=800&color=6DB33F&center=true&vCenter=true&width=700&lines=🔐+Spring+Security+Deep+Dive;🛡️+Securing+Java+Applications;🔑+Authentication+%26+Authorization" alt="Spring Security" />
+</div>
+
+<br/>
+
+### 🔑 Kiến trúc Spring Security
+
+| Thành phần | Mô tả |
+|---|---|
+| `SecurityFilterChain` | Chuỗi các filter xử lý request theo thứ tự |
+| `AuthenticationManager` | Điều phối quá trình xác thực người dùng |
+| `AuthenticationProvider` | Thực hiện xác thực (DaoAuthenticationProvider, etc.) |
+| `UserDetailsService` | Load thông tin user từ database |
+| `PasswordEncoder` | Mã hóa mật khẩu (BCrypt, Argon2, etc.) |
+| `SecurityContextHolder` | Lưu trữ SecurityContext của request hiện tại |
+| `GrantedAuthority` | Quyền hạn (role/permission) của user |
+
+---
+
+### 🔐 Authentication (Xác thực)
+
+```java
+// Cấu hình HTTP Security cơ bản
+@Configuration
+@EnableWebSecurity
+public class SecurityConfig {
+
+    @Bean
+    public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
+        http
+            .authorizeHttpRequests(auth -> auth
+                .requestMatchers("/public/**").permitAll()
+                .requestMatchers("/admin/**").hasRole("ADMIN")
+                .anyRequest().authenticated()
+            )
+            .formLogin(form -> form
+                .loginPage("/login")
+                .defaultSuccessUrl("/dashboard")
+                .permitAll()
+            )
+            .logout(logout -> logout
+                .logoutSuccessUrl("/login?logout")
+                .invalidateHttpSession(true)
+                .deleteCookies("JSESSIONID")
+            );
+        return http.build();
+    }
+
+    @Bean
+    public PasswordEncoder passwordEncoder() {
+        return new BCryptPasswordEncoder(10); // strength 10 (default, doubles with each increment)
+    }
+}
+```
+
+---
+
+### 🎟️ JWT (JSON Web Token)
+
+```java
+// JWT Filter - Xác thực mỗi request bằng JWT
+@Component
+public class JwtAuthFilter extends OncePerRequestFilter {
+
+    @Override
+    protected void doFilterInternal(HttpServletRequest request,
+                                    HttpServletResponse response,
+                                    FilterChain filterChain) throws ServletException, IOException {
+        String authHeader = request.getHeader("Authorization");
+        if (authHeader == null || !authHeader.startsWith("Bearer ")) {
+            filterChain.doFilter(request, response);
+            return;
+        }
+        String token = authHeader.substring(7);
+        try {
+            String username = jwtService.extractUsername(token);
+            if (username != null && SecurityContextHolder.getContext().getAuthentication() == null) {
+                UserDetails user = userDetailsService.loadUserByUsername(username);
+                if (jwtService.isTokenValid(token, user)) {
+                    UsernamePasswordAuthenticationToken authToken =
+                        new UsernamePasswordAuthenticationToken(user, null, user.getAuthorities());
+                    authToken.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
+                    SecurityContextHolder.getContext().setAuthentication(authToken);
+                }
+            }
+        } catch (Exception e) {
+            // Token không hợp lệ hoặc hết hạn – không set authentication
+            SecurityContextHolder.clearContext();
+        }
+        filterChain.doFilter(request, response);
+    }
+}
+```
+
+> ⚠️ **Lưu ý bảo mật JWT:**
+> - Luôn dùng thuật toán **RS256** hoặc **HS256** với key đủ mạnh (≥256 bit)
+> - Đặt thời hạn token ngắn (15–60 phút) + dùng Refresh Token
+> - **Không** lưu JWT vào `localStorage` (dễ bị XSS); ưu tiên `HttpOnly Cookie`
+> - Validate đầy đủ: signature, expiry, issuer, audience
+
+---
+
+### 🌐 OAuth2 & OpenID Connect
+
+```java
+// Cấu hình OAuth2 Login (Google, GitHub, ...)
+@Bean
+public SecurityFilterChain oauth2FilterChain(HttpSecurity http) throws Exception {
+    http
+        .oauth2Login(oauth2 -> oauth2
+            .loginPage("/oauth2/authorization/google")
+            .defaultSuccessUrl("/home", true)
+            .userInfoEndpoint(userInfo -> userInfo
+                .userService(customOAuth2UserService)
+            )
+        )
+        .oauth2ResourceServer(oauth2 -> oauth2
+            .jwt(jwt -> jwt.jwtAuthenticationConverter(jwtAuthConverter()))
+        );
+    return http.build();
+}
+```
+
+> **PKCE (Proof Key for Code Exchange):** Bắt buộc với public clients (SPA, mobile) và được khuyến nghị cho tất cả client types (OAuth 2.1+) để ngăn Authorization Code Interception Attack.
+
+---
+
+### 🔒 Authorization (Phân quyền)
+
+```java
+// Method Security - Bảo vệ ở tầng Service
+@Configuration
+@EnableMethodSecurity // thay @EnableGlobalMethodSecurity trong Spring 6+
+public class MethodSecurityConfig {}
+
+@Service
+public class ArticleService {
+
+    @PreAuthorize("hasRole('ADMIN') or #article.authorId == authentication.principal.id")
+    public void deleteArticle(Article article) { ... }
+
+    @PostAuthorize("returnObject.authorId == authentication.principal.id")
+    public Article getArticle(Long id) { ... }
+
+    @PreAuthorize("hasAuthority('article:write')")
+    public Article createArticle(Article article) { ... }
+}
+```
+
+| Annotation | Mô tả |
+|---|---|
+| `@PreAuthorize` | Kiểm tra quyền **trước** khi thực thi method |
+| `@PostAuthorize` | Kiểm tra quyền **sau** khi thực thi (dựa trên kết quả) |
+| `@Secured` | Kiểm tra role đơn giản (ít linh hoạt hơn) |
+| `@RolesAllowed` | Tương tự `@Secured`, chuẩn JSR-250 |
+
+---
+
+### 🚫 CSRF Protection
+
+```java
+// CSRF: Bật mặc định với Session-based auth; tắt khi dùng JWT (stateless)
+http
+    .csrf(csrf -> csrf
+        // Tắt CSRF cho REST API dùng JWT
+        .disable()
+        // Hoặc chỉ tắt cho API endpoints
+        // .ignoringRequestMatchers("/api/**")
+    );
+
+// Nếu giữ CSRF, dùng CookieCsrfTokenRepository cho SPA
+http.csrf(csrf -> csrf
+    .csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse())
+);
+```
+
+> ⚠️ **Không bao giờ tắt CSRF với ứng dụng dùng Session/Cookie authentication!**
+
+---
+
+### 🔓 Common Vulnerabilities & Fixes
+
+| Lỗ hổng | Nguyên nhân | Giải pháp |
+|---|---|---|
+| **Broken Authentication** | Mật khẩu yếu, session không hết hạn | BCrypt + session timeout |
+| **SQL Injection** | Query ghép chuỗi thủ công | Spring Data JPA / Prepared Statements |
+| **XSS** | Render HTML không encode | Content Security Policy + output encoding |
+| **CSRF** | Request giả mạo từ site khác | CSRF token / SameSite Cookie |
+| **IDOR** | Không kiểm tra quyền sở hữu resource | `@PostAuthorize` / ownership check |
+| **JWT none algorithm** | Không validate `alg` header | Whitelist algorithms, reject `none` |
+| **Mass Assignment** | Bind trực tiếp request body vào entity | Dùng DTO, `@JsonIgnore` trên sensitive fields |
+| **Open Redirect** | Redirect URL không validate | Whitelist redirect URLs |
+
+---
+
+### 🔧 Security Headers (Best Practices)
+
+```java
+http.headers(headers -> headers
+    .frameOptions(frame -> frame.deny())                        // Chống Clickjacking
+    .contentTypeOptions(Customizer.withDefaults())              // Chống MIME sniffing
+    .httpStrictTransportSecurity(hsts -> hsts                   // Bắt buộc HTTPS
+        .includeSubDomains(true)
+        .maxAgeInSeconds(31536000)
+    )
+    .contentSecurityPolicy(csp -> csp
+        .policyDirectives("default-src 'self'; script-src 'self'") // Chống XSS (ưu tiên hơn X-XSS-Protection đã deprecated)
+    )
+);
+```
+
+---
+
+### 🏗️ Stateless vs Stateful Security
+
+| | **Stateful (Session)** | **Stateless (JWT)** |
+|---|---|---|
+| Lưu trạng thái | Server-side (HttpSession) | Client-side (Token) |
+| Scale | Cần sticky session / Redis | Dễ horizontal scale |
+| Revoke token | Dễ (xóa session) | Khó (cần blacklist / short TTL) |
+| CSRF | Cần bảo vệ | Không cần (nếu không dùng Cookie) |
+| Phù hợp | Web app truyền thống (MVC) | REST API, Microservices |
+
+---
+
+### 📚 Tài nguyên học Spring Security
+
+- 📖 [Spring Security Reference Docs](https://docs.spring.io/spring-security/reference/)
+- 🎓 [Spring Security Architecture](https://spring.io/guides/topicals/spring-security-architecture)
+- 🔐 [OWASP Top 10](https://owasp.org/www-project-top-ten/)
+- 🛡️ [JWT Best Practices (RFC 8725)](https://datatracker.ietf.org/doc/html/rfc8725)
+- 📦 [Baeldung Spring Security](https://www.baeldung.com/security-spring)
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+</div>
+
+---
+
 ## <img src="https://media.giphy.com/media/fsEaZldNC8A1PJ3mwp/giphy.gif" width="60"> <b>Quote của ngày</b>
 
 <br/>
